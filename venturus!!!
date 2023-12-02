@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Maioridade</title>
+        <script>
+            function verificaMaioridade () {
+                var idade = +prompt("digite a idade!");
+
+                if (idade >= 18) {
+                    alert("voce possui maioridade!");
+                }
+                else{
+
+                alert("voce possui menoridade" );
+                
+            }
+        
+        }       
+        </script>
+    </head>
+    <body style="background-color: blue;"> 
+        <button onclick="verificaMaioridade()">consultar</button>
+    </body>
